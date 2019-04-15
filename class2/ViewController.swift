@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         
         //this is a test
         /*
-            hello, this is wangbb
+        my name is wangbb
+         hello, this is wangbb
          */
         
     }
