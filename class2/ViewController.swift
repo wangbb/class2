@@ -9,19 +9,49 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        //this is a test
-        /*
-        my name is wangbb
-         hello, this is wangbb
-         */
+        let str="this is a string都是"
         
+        var one=1 //variable
+        var ff=3.14159
+        
+        let two=2 //definition
+        let a:Int = 2384923
+        
+        
+        var answer = ff * (Double)(two * one)
+        print (answer)
     }
-
-
+    
+    func myBMI(weight:Int, height:Int) -> Float
+    {
+        var ans : Float = 0.0
+        var msg : String
+        ans = Float (weight) / Float ((height/100) *(height/100))
+        if (ans > 28)
+        {msg = "too fat"
+            print(msg)
+        }
+        else
+        {
+            msg = "not fat"
+            print(msg)
+        }
+        
+        let array = [1,2,3,4,5]
+        for a in array{
+            print(a)
+        }
+        
+        return ans
+    }
+    
+    func add(a:Int, b:Int) -> Int {
+        return( a + b)
+    }
+    
 }
 
