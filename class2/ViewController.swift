@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     {
         var ans : Float = 0.0
         var msg : String
-        ans = Float (weight) / Float ((height/100) *(height/100))
+        ans = 100.3
         if (ans > 28)
         {msg = "too fat"
             print(msg)
@@ -44,6 +44,12 @@ class ViewController: UIViewController {
         let array = [1,2,3,4,5]
         for a in array{
             print(a)
+        }
+ 
+        let kk = add(a:2,b:3)
+        if kk>6 {
+            print ("kk is now : \( kk ) ")
+            
         }
         
         return ans
