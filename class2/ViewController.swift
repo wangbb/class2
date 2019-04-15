@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         }
         else
         {
-            msg = "not fat"
+            msg = "not fat, too thin,,,,,,,,,,"
             print(msg)
         }
         
